@@ -5,7 +5,7 @@ Note: use ctrl+shift+v to preview md files in vs code
 
 1. **Respository (repo)**
     A project folder that Git is tracking. Can **local**
-    (on your computer) or **remote** (Like GitHub)
+    (on your computer) or **remote** (Like GitHub).
 2. **Version Control**
    A system that trakcs changes to code over time, letting you revert to previous versions or collaborate with others. 
 3. **Commit**
@@ -16,19 +16,20 @@ Note: use ctrl+shift+v to preview md files in vs code
     Where you prepare changes before committing. You "stage" files that are ready to be committed. 
 ---
 6. `git init`
-    Initializes a new Git repository in a folder
+    Initializes a new Git repository in a folder.
 7. `git status`
     Shows the current state of the working directory and staging area. 
 8. `git add <file>`
-    Stages changes in a file for the next commit. (note you can add `git add *` to change all files in the
-    working directory, while `git add .` does the whole repository).
+    Stages changes in a file for the next commit. (note you can add `git add *` to change all files in the working directory, while `git add .` does the whole repository).
 9. `git commit -m "message"`
-    Saves the staged changes with a commit message
+    Saves the staged changes with a commit message.
 10. **Add a remote location for a repo**
     `git remote add origin <link to repo>`
 11. `git push`
     Sends local commits to the remote repository.
 12. `git pull`
-    Fetches **and merges** changes from the remote repository to your local one
+    Fetches **and merges** changes from the remote repository to your local one.
 13. `git fetch`
-    Downloads changes from the remote, but doesn't merge them automatically
+    Downloads changes from the remote, but doesn't merge them automatically.
+14. `git merge`
+    Merges changes from one branch into another. 

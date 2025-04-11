@@ -33,3 +33,5 @@ Note: use ctrl+shift+v to preview md files in vs code
     Downloads changes from the remote, but doesn't merge them automatically.
 14. `git merge`
     Merges changes from one branch into another. 
+15. `git branch <branch_name>`
+    Create a new branch.

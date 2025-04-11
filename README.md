@@ -1,0 +1,25 @@
+# Git/Github Notes
+Note: use ctrl+shift+v to preview md files in vs code
+
+## Basic Concepts
+
+1. **Respository (repo)**
+    A project folder that Git is tracking. Can **local**
+    (on your computer) or **remote** (Like GitHub)
+2. **Version Control**
+   A system that trakcs changes to code over time, letting you revert to previous versions or collaborate with others. 
+3. **Commit**
+    A snapshot of your changes. Include a message describing what was changed. 
+4. **Working Directory**
+    The current state of your files om disk. 
+5. **Staging Area**
+    Where you prepare changes before committing. You "stage" files that are ready to be committed. 
+---
+6. `git init`
+    Initializes a new Git repository in a folder
+7. `git status`
+    Shows the current state of the working directory and staging area. 
+8. `git add <file>`
+    Stages changes in a file for the next commit. (note you can add `git add *` to change all files in the working directory, while `git add .` does the who;e repository).
+9. `git commit -m "message"`
+    Saves the staged changes with a commit message

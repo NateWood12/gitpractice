@@ -35,3 +35,5 @@ Note: use ctrl+shift+v to preview md files in vs code
     Merges changes from one branch into another. 
 15. `git branch <branch_name>`
     Create a new branch.
+16. `git checkout <branch_name>`
+    Switch to a different branch (edits/ commits will be on this now)

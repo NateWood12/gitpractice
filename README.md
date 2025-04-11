@@ -22,11 +22,13 @@ Note: use ctrl+shift+v to preview md files in vs code
 8. `git add <file>`
     Stages changes in a file for the next commit. (note you can add `git add *` to change all files in the
     working directory, while `git add .` does the whole repository).
-10. `git commit -m "message"`
+9. `git commit -m "message"`
     Saves the staged changes with a commit message
-11. **Add a remote location for a repo**
+10. **Add a remote location for a repo**
     `git remote add origin <link to repo>`
-12. `git push`
+11. `git push`
     Sends local commits to the remote repository.
-13. `git pull`
+12. `git pull`
     Fetches **and merges** changes from the remote repository to your local one
+13. `git fetch`
+    Downloads changes from the remote, but doesn't merge them automatically

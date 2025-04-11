@@ -20,10 +20,13 @@ Note: use ctrl+shift+v to preview md files in vs code
 7. `git status`
     Shows the current state of the working directory and staging area. 
 8. `git add <file>`
-    Stages changes in a file for the next commit. (note you can add `git add *` to change all files in the working directory, while `git add .` does the who;e repository).
-9. `git commit -m "message"`
+    Stages changes in a file for the next commit. (note you can add `git add *` to change all files in the
+    working directory, while `git add .` does the whole repository).
+10. `git commit -m "message"`
     Saves the staged changes with a commit message
-10. **Add a remote location for a repo**
-`git remote add origin <link to repo>`
-11. `git push`
-Sends local commits to the remote repository. 
+11. **Add a remote location for a repo**
+    `git remote add origin <link to repo>`
+12. `git push`
+    Sends local commits to the remote repository.
+13. `git pull`
+    Fetches **and merges** changes from the remote repository to your local one

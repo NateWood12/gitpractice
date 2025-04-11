@@ -23,3 +23,7 @@ Note: use ctrl+shift+v to preview md files in vs code
     Stages changes in a file for the next commit. (note you can add `git add *` to change all files in the working directory, while `git add .` does the who;e repository).
 9. `git commit -m "message"`
     Saves the staged changes with a commit message
+10. **Add a remote location for a repo**
+`git remote add origin <link to repo>`
+11. `git push`
+Sends local commits to the remote repository. 
